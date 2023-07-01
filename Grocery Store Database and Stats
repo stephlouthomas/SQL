@@ -1,0 +1,26 @@
+-- Create a grocery store database
+
+CREATE TABLE clothes (price INTEGER, name TEXT, quantitIy INTEGER, gender TEXT, aisle INTEGER);
+
+INSERT INTO clothes VALUES (1, "Scrunchie", 1, "Girl", 1);
+Insert into clothes VALUES (2, "Tie", 2, "Boy", 2); 
+insert into clothes values (3, "jeans", 3, "Unisex", 3);
+insert into clothes values (4, "crop", 4, "girl", 4);
+insert into clothes values (5, "Button Down", 5, "boy", 5);
+insert into clothes values (6, "glitter", 6, "girl", 6);
+insert into clothes values (7, "boxers", 7, "boy", 7);
+insert into clothes values (8, "underwear", 8, "girl", 8);
+insert into clothes values (9, "socks", 9, "unisex", 9);
+insert into clothes values (10, "brush", 10, "girl", 10);
+insert into clothes values (11, "cologne", 11, "boy", 11);
+insert into clothes values (12, "perfume", 12, "girl", 12);
+insert into clothes values (13, "extensions", 13, "girl", 13);
+insert into clothes values (14, "under_shirt", 14, "boy", 14);
+insert into clothes values (15, "bra", 15, "girl", 15);
+
+
+-- the price of the clothing in the store
+SELECT price FROM clothes;
+
+-- the average price of the clothing in the store
+SELECT avg(price) FROM clothes;
